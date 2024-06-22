@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    overflow: visible;
+    
+}
+.home {
+    height: 20px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none    ;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+}
+.home:hover {
+    background-color:white;
+    color: black;
+    scale: 1.1;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+a {
+    background-color: transparent;
+}
